@@ -68,7 +68,7 @@ q:before, q:after 				{ content:''; }
 
 --------------------------------------------------------------------*/
 
-#wrapper 						{ background:url(../img/header-bg-red.png) top center repeat-x; border-top: 7px solid #332921; overflow:hidden;  }
+#wrapper 						{background:url(../img/header-bg-red.png) top center repeat-x; border-top: 7px solid #332921; overflow:hidden;  }
 #main 							{ width:960px; padding:0; margin:0 auto; }
 
 /*-------------------------------
@@ -135,7 +135,7 @@ ul.social 						{ list-style:none; font-size:12px;}
 	 ul.social li a#twitter  		{ background: url(../img/twitter.png) no-repeat left top; }
 
 /* Twitter */
-p.twitter-feed 						{ padding-left: 45px; background: url(../img/twitter-bg.png) no-repeat left top; font: 14px Georgia, serif; }
+p.twitter-feed 						{ /*padding-left: 45px; background: url(../img/twitter-bg.png) no-repeat left top;*/ width:400; font: 14px Georgia, serif; }
 
 
 /*-------------------------------
@@ -347,3 +347,6 @@ Twitter Feed
 	font-size: 11px;color: #675691; float: right; margin: 0 5px 0 0; text-decoration:none; text-transform:lowercase;
 }
 
+
+
+/* custom Styles for cms templates */

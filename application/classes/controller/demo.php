@@ -41,11 +41,13 @@
 			/*'media/css/reset.css' => 'screen, projection',
 			'media/css/style.css' => 'screen',
                         'media/css/superfish.css' => 'screen',*/
-                        'min/b=media/css&f=reset.css,style.css,superfish.css' => 'screen',
+                        'min/b=media/css&f=reset.css,style.css,superfish_original.css' => 'screen',
+                        'http://assets.freshdesk.com/widget/freshwidget.css' => 'screen',
 		);
   
 		$scripts = array(
 			'http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js',
+                        'http://assets.freshdesk.com/widget/freshwidget.js',
 			/*'media/js/jquery.pngFix.pack.js',
                         'media/js/hoverIntent.js',
                         'media/js/superfish.js',
