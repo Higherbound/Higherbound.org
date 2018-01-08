@@ -1,1 +1,1 @@
-New updates will be released someday
+Project is obsolete as the backend is no longer in development
